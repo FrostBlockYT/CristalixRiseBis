@@ -1,0 +1,15 @@
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\bin\Debug\BisChecker.exe.config
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\bin\Debug\BisChecker.exe
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\bin\Debug\BisChecker.pdb
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.csprojAssemblyReference.cache
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\MainWindow.g.cs
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\App.g.cs
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker_MarkupCompile.cache
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker_MarkupCompile.lref
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\MainWindow.baml
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.g.resources
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.Properties.Resources.resources
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.csproj.GenerateResource.cache
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.csproj.CoreCompileInputs.cache
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.exe
+C:\Users\NotAura\source\repos\BisChecker\BisChecker\obj\Debug\BisChecker.pdb
