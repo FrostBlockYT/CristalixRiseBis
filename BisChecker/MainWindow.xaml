@@ -5,15 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BisChecker"
         mc:Ignorable="d"
-        Title="by FrostBlock" Height="207" Width="258">
+        Title="by FrostBlock" Height="207" Width="499.727">
     <Grid>
         <Button Content="Save" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Save" HorizontalAlignment="Left" Margin="160,68,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Save" HorizontalAlignment="Left" Margin="407,68,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
         <Button Content="+1" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
-        <Button Content="+1" HorizontalAlignment="Left" Margin="160,116,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+        <Button Content="+1" HorizontalAlignment="Left" Margin="407,116,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
         <TextBox x:Name="tier9" HorizontalAlignment="Left" Height="23" Margin="10,31,0,0" TextWrapping="Wrap" Text="9Tier" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="tier10" HorizontalAlignment="Left" Height="23" Margin="160,31,0,0" TextWrapping="Wrap" Text="10Tier" VerticalAlignment="Top" Width="75"/>
-        <Label x:Name="amount" Content="Amount:" HorizontalAlignment="Left" Margin="104,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tier10" HorizontalAlignment="Left" Height="23" Margin="407,31,0,0" TextWrapping="Wrap" Text="10Tier" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="amount" Content="Amount:" HorizontalAlignment="Left" Margin="213,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.729,0.805"/>
+        <CheckBox x:Name="localbis" Content="Локальный Бизнессов" HorizontalAlignment="Left" Margin="90,33,0,0" VerticalAlignment="Top" Width="166"/>
+        <CheckBox x:Name="globalbis" Content="Глобальный Бизнессов" HorizontalAlignment="Left" Margin="90,56,0,0" VerticalAlignment="Top" Width="166"/>
+        <CheckBox x:Name="localsvalks" Content="Локальный Свалки" HorizontalAlignment="Left" Margin="90,76,0,0" VerticalAlignment="Top" Width="166"/>
+        <CheckBox x:Name="globalsvalk" Content="Глобальный Свалки" HorizontalAlignment="Left" Margin="90,96,0,0" VerticalAlignment="Top" Width="166"/>
+        <Button Content="Обновить" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="202,121,0,0" Click="Button_Click_4"/>
 
     </Grid>
 </Window>
