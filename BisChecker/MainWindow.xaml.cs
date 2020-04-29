@@ -47,24 +47,26 @@ namespace BisChecker
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             tier9.IsReadOnly = true;
+            tier9.IsEnabled = false;
             try
             {
                 tier9_valuse = double.Parse(tier9.Text.ToString().Replace(@".", ","));
             }
             catch (Exception ex)
-            { MessageBox.Show("Undefined value"); }
+            { MessageBox.Show("Undefined value"); tier9.IsReadOnly = false; tier9.IsEnabled = true; }
 
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             tier10.IsReadOnly = true;
+            tier10.IsEnabled = false;
             try
             {
                 tier10_valuse = double.Parse(tier10.Text.ToString().Replace(@".", ","));
             }
             catch (Exception ex)
-            { MessageBox.Show("Undefined value"); }
+            { MessageBox.Show("Undefined value"); tier10.IsReadOnly = false; tier10.IsEnabled = true; }
         }
 
         private void UpdateValue()
@@ -73,7 +75,7 @@ namespace BisChecker
             bool globalB = (globalbis.IsChecked == true);
             bool localS = (localsvalks.IsChecked == true);
             bool globalS = (globalsvalk.IsChecked == true);
-            double localBv = 1, globalBv = 1, localSv = 1, globalSv = 1;
+            double localBv = 0, globalBv = 0, localSv = 0, globalSv = 0;
             double multiplier = 1;
             if(localB)
             {
@@ -92,11 +94,11 @@ namespace BisChecker
                 globalSv = 1.5;
             }
             multiplier = globalSv + globalBv + localSv + localBv;
-            if(multiplier==4)
+            if(multiplier==0)
             {
                 multiplier = 1;
             }
-            double kek = tier10_valuse * tier10_count * multiplier + tier9_count * tier9_valuse* multiplier;
+            double kek = (tier10_valuse * tier10_count  + tier9_count * tier9_valuse)*multiplier;
             if(kek >= 1000)
             {
                 amount.Content = "Amount: " + Math.Round(kek/1000, 2, MidpointRounding.ToEven) + "Q" ;
